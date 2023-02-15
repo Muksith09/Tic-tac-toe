@@ -4,11 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="tic.js"></script>
+    <link rel="stylesheet" href="tic.css">
     <title>Tic-Tac-Toe</title>
 </head>
 <body>
-    <h2>TIC TAC TOE</h2>
-    
-    
+    <div id="main">  
+        <h2>TIC TAC TOE</h2>
+
+        <div id="row1">
+            <input type="text" id="b1" onclick="func1(), func(), turn()" value="" readonly>
+            <input type="text" id="b2" onclick="func2(), func(), turn()" value="" readonly>
+            <input type="text" id="b3" onclick="func3(), func(), turn()" value="" readonly>
+        </div>
+        <div id="row2">
+            <input type="text" id="b4" onclick="func4(), func(), turn()" value="" readonly>
+            <input type="text" id="b5" onclick="func5(), func(), turn()" value="" readonly>
+            <input type="text" id="b6" onclick="func6(), func(), turn()" value="" readonly>
+        </div>
+        <div id="row3">
+            <input type="text" id="b7" onclick="func7(), func(), turn()" value="" readonly>
+            <input type="text" id="b8" onclick="func8(), func(), turn()" value="" readonly>
+            <input type="text" id="b9" onclick="func9(), func(), turn()" value="" readonly>
+        </div>
+        <p id="print">Player 1's turn</p>
+        <button class="but" onclick="restart()">Restart</button>       
+    </div> 
 </body>
 </html>

@@ -1,0 +1,191 @@
+*{
+    background-color: aqua;
+}
+
+                        /* media queries*/
+
+
+@media screen and (min-width:500px){
+
+#main{
+     margin-left: 35em;
+     margin-top: 7em;
+     border-color: black;
+}
+h2{
+    margin-bottom: 3em;
+    margin-left: 3.5em;
+    
+}
+input{
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    font-size: xx-large; 
+    border-color: aqua;
+    margin: auto;
+}
+#b1,#b2,#b3{
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    border-top: none;
+}
+#b4,#b1,#b7{
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    border-left: none;
+}
+#b3,#b6,#b9{
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    border-right: none;
+}
+#b7,#b8,#b9{
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    border-bottom: none;
+}
+#row2{
+    margin-top: 0.6%;
+    margin: auto;
+
+}
+#row3{
+    margin-top: 0.6%;
+    margin: auto;
+}
+.but{
+    margin-top: 2em;
+    margin-left: 30%;
+    padding: 10px 20px;
+}
+.but:hover{
+    background-color: bisque;
+}
+
+#print{
+    margin-left: 6em;
+    font-size: larger;
+}
+
+}
+@media screen and (max-width:500px){
+
+body{
+    margin: auto;
+}
+#main{
+    margin-left: 9em;
+    margin-top: 50%;
+}
+h2{
+    margin-left: 1em;
+}
+#print{
+    margin-left: 3em;
+}
+.but{
+
+    margin-left: 9em;
+}
+.but:hover{
+    background-color: bisque;
+}
+input{
+    height: 55px;
+    width: 55px;
+    text-align: center;
+    font-size: x-large; 
+    border-color: aqua;
+}
+
+#b1,#b2,#b3{
+    height: 55px;
+    width: 55px;
+    text-align: center;
+    border-top: none;
+}
+#b4,#b1,#b7{
+    height: 55px;
+    width: 55px;
+    text-align: center;
+    border-left: none;
+}
+#b3,#b6,#b9{
+    height: 55px;
+    width: 55px;
+    text-align: center;
+    border-right: none;
+}
+#b7,#b8,#b9{
+    height: 55px;
+    width: 55px;
+    text-align: center;
+    border-bottom: none;
+}
+
+}
+/*      resolution bewtween width 500 and 100px         */
+
+@media screen and (min-width:600px) and (max-width:1000px){
+
+    body{
+        margin: auto;
+    }
+    #main{
+        margin-left: 18em;
+        margin-top: 35%;
+    }
+    h2{
+        font-size: xx-large;
+        margin-left: 1.3em;
+    }
+    #print{
+        margin-left: 3em;
+        font-size: x-large;
+    }
+    .but{
+        margin-left: 10em;
+        font-size: larger;
+    }
+    .but:hover{
+        background-color: bisque;
+    }
+    input{
+        height: 80px;
+        width: 80px;
+        text-align: center;
+        font-size: xx-large; 
+        border-color: aqua;
+    }
+    
+    #b1,#b2,#b3{
+        height: 80px;
+        width: 80px;
+        text-align: center;
+        border-top: none;
+    }
+    #b4,#b1,#b7{
+        height: 80px;
+        width: 80px;
+        text-align: center;
+        border-left: none;
+    }
+    #b3,#b6,#b9{
+        height: 80px;
+        width: 80px;
+        text-align: center;
+        border-right: none;
+    }
+    #b7,#b8,#b9{
+        height: 80px;
+        width: 80px;
+        text-align: center;
+        border-bottom: none;
+    }
+    
+    }
